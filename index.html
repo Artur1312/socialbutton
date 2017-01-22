@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Button</title>
+   <link rel="stylesheet" href="//static0.whatshelp.io/widget-send-button/css/style.css?v=1484213565"> 
+   
+</head>
+<body>
+    <p>Hello</p>
+    <div class="wh-widget-hello-popup-wrapper wh-popup wh-popup-right">
+        <div class="wh-popup-title-bar wh-messenger-bg-viber" wh-class="bgColorMessenger">
+            <div class="title-bar-icon-close" wh-click="closePopup">
+                <svg fill="#FFFFFF" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                </svg>
+            </div>
+            <div class="title-bar-icon-messenger" wh-html="icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" class="wh-messenger-svg-whatsapp"><path d=" M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z" fill-rule="evenodd"></path></svg></div>
+            <div class="title-bar-text" wh-html-unsafe="title">Viber</div>
+            <div class="wh-clear"></div>
+        </div>
+        <div class="wh-popup-content wh-popup-content-whatsapp"><div>
+        <div class="content-wa-text" wh-html-unsafe="waText">Добавьте наш номер в список контактов телефона. После чего напишите нам через мессенджер.</div>
+        <div class="content-wa-number" wh-html-unsafe="waValue">+905413764687</div>
+    </div></div>
+        <div class="wh-clear"></div>
+
+        <div class="wh-widget-hello-popup-powered" wh-class="pwdByClass">
+            <a href="//whatshelp.io/widget/?utm_campaign=multy_widget&amp;utm_medium=widget&amp;utm_source=button" target="_blank">
+                Powered by&nbsp;<span>WhatsHelp</span>
+            </a>
+        </div>
+        <div class="wh-clear"></div>
+    </div>
+</body>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js/container.js"></script>
+<script type="text/javascript" src="js/init.js"></script>
+<script type="text/javascript">
+    (function () {
+        var options = {
+            facebook: "100005303206080", // Facebook page ID
+            whatsapp: "+905413764687", // WhatsApp number
+            viber: "airyschool ",
+            wa_vb_message: "Добавьте наш номер в список контактов телефона. После чего напишите нам через мессенджер.",// Viber number
+            telegram: "whatshelpbot", // Telegram bot username
+            vkontakte: "https://vk.com/arturayriyan", // VKontakte page name
+            company_logo_url: "//static0.whatshelp.io/img/flag.png", // URL of company logo (png, jpg, gif)
+            greeting_message: "Hello, how may we help you? Just send us a message now to get assistance.", // Text of greeting message
+            v_vb_message: "Добавьте наш номер в список контактов телефона. После чего напишите нам через мессенджер.",
+            wa_vb_message: "Добавьте наш номер в список контактов телефона. После чего напишите нам через мессенджер.", // Message for WhatsApp
+            button_color: "#666666", // Color of button
+            position: "right", // Position may be 'right' or 'left'
+            order: "facebook,whatsapp,viber,vkontakte,telegram" // Order of buttons
+        };
+        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+</html>
+
+
+
